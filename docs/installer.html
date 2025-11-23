@@ -2,61 +2,52 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Install Userscript Loader</title>
+<title>Centralized Userscript Manager</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     body {
         font-family: Arial, sans-serif;
         background: #f4f6fa;
         margin: 0;
-        padding: 30px;
+        padding: 20px;
         text-align: center;
     }
     .card {
-        max-width: 600px;
+        max-width: 700px;
         margin: 40px auto;
         background: white;
         padding: 30px;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    button {
+    h1 {
+        margin-bottom: 10px;
+    }
+    .btn {
+        display: inline-block;
         background: #2d5cff;
-        border: none;
-        padding: 15px 25px;
-        font-size: 18px;
-        border-radius: 8px;
         color: white;
-        cursor: pointer;
+        padding: 15px 25px;
+        margin: 10px;
+        border-radius: 8px;
+        font-size: 18px;
+        text-decoration: none;
     }
-    button:hover {
+    .btn:hover {
         background: #1b3fd6;
-    }
-    small {
-        color: #444;
     }
 </style>
 </head>
 <body>
 
 <div class="card">
-    <h1>🚀 Install Centralized Loader</h1>
+    <h1>🔧 Centralized Userscript Manager</h1>
+    <p>Install loader dan otomatis update semua script dari GitHub.</p>
 
-    <p>Klik tombol di bawah untuk membuka Tampermonkey dan menginstal Loader.</p>
-
-    <button onclick="installLoader()">Install Loader</button>
-
-    <p style="margin-top:20px">
-        <small>Pastikan Tampermonkey sudah terpasang di browser.</small>
-    </p>
+    <a class="btn" href="installer.html">Install Loader</a>
+    <a class="btn" href="status.html">Cek Status</a>
+    <a class="btn" href="https://github.com/cobrabagaskara/centralized-userscript-manager" target="_blank">Repository</a>
 </div>
-
-<script>
-function installLoader() {
-    window.location.href =
-        "https://cobrabagaskara.github.io/centralized-userscript-manager/loader/Centralized-Userscript-Loader.user.js";
-}
-</script>
 
 </body>
 </html>
