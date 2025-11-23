@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centralized Userscript Manager</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<h1>📦 Centralized Userscript Manager</h1>
+<p>Manage all userscript modules from a single place.</p>
+
+<div class="card">
+    <h2>Modules</h2>
+    <ul id="module-list"></ul>
+</div>
+
+<div class="card">
+    <h2>Installer</h2>
+    <p>Install the Tampermonkey loader using this link:</p>
+    <a href="installer.html" class="button">Open Installer</a>
+</div>
+
+<script>
+fetch("modules/modules.json")
+    .then(r => r.json())
+    .then(list => {
+        const ul = document.getElementById("module-list");
+        list.forEach(m => {
+            const li = document.createElement("li");
+            li.innerHTML = `
+                <b>${m.name}</b> — <a href="${m.url}" target="_blank">Open</a>
+            `;
+            ul.appendChild(li);
+        });
+    });
+</script>
+
+</body>
+</html>
