@@ -1,128 +1,60 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Centralized Userscript Installer</title>
+<title>Install Userscript Loader</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     body {
         font-family: Arial, sans-serif;
-        background: #f2f7ff;
+        background: #f4f6fa;
         margin: 0;
-        padding: 20px;
-        color: #333;
-    }
-    h1 {
-        color: #0055cc;
+        padding: 30px;
+        text-align: center;
     }
     .card {
+        max-width: 600px;
+        margin: 40px auto;
         background: white;
-        padding: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     button {
-        padding: 12px 20px;
-        border-radius: 8px;
-        background: #0066ff;
+        background: #2d5cff;
         border: none;
+        padding: 15px 25px;
+        font-size: 18px;
+        border-radius: 8px;
         color: white;
-        font-size: 16px;
         cursor: pointer;
-        margin: 5px 0;
-        width: 100%;
     }
     button:hover {
-        opacity: 0.9;
+        background: #1b3fd6;
     }
-    .ok { color: green; font-weight: bold; }
-    .fail { color: red; font-weight: bold; }
+    small {
+        color: #444;
+    }
 </style>
 </head>
-
 <body>
 
-<h1>🔧 Centralized Userscript Installer</h1>
-<p>Gunakan halaman ini untuk menginstal sistem userscript terpusat di komputer client.</p>
-
 <div class="card">
-    <h2>1️⃣ Install Ekstensi Tampermonkey</h2>
-    <p>Wajib diinstall sebelum script dapat berjalan.</p>
+    <h1>🚀 Install Centralized Loader</h1>
 
-    <button onclick="window.open('https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo', '_blank');">
-        Install Tampermonkey (Chrome)
-    </button>
+    <p>Klik tombol di bawah untuk membuka Tampermonkey dan menginstal Loader.</p>
 
-    <button onclick="window.open('https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/', '_blank');">
-        Install Tampermonkey (Firefox)
-    </button>
+    <button onclick="installLoader()">Install Loader</button>
 
-    <p id="tm-status"></p>
-</div>
-
-<div class="card">
-    <h2>2️⃣ Install Loader Script</h2>
-    <p>Setelah Tampermonkey terpasang, klik tombol berikut:</p>
-
-    <button onclick="window.open('https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/loader/Centralized-Userscript-Loader.user.js', '_blank');">
-        Install Centralized Loader
-    </button>
-</div>
-
-<div class="card">
-    <h2>3️⃣ Tes Koneksi Loader</h2>
-    <button onclick="testLoader()">Tes Loader</button>
-    <p id="loader-result"></p>
-</div>
-
-<div class="card">
-    <h2>4️⃣ Tes Modul</h2>
-    <button onclick="testModule()">Tes Modul auto-close-notification</button>
-    <p id="module-result"></p>
+    <p style="margin-top:20px">
+        <small>Pastikan Tampermonkey sudah terpasang di browser.</small>
+    </p>
 </div>
 
 <script>
-// --- CEK APAKAH TAMPERMONKEY AKTIF ---
-function detectTampermonkey() {
-    if (typeof GM_info !== "undefined") {
-        document.getElementById("tm-status").innerHTML =
-            "<span class='ok'>✔ Tampermonkey terdeteksi.</span>";
-    } else {
-        document.getElementById("tm-status").innerHTML =
-            "<span class='fail'>✘ Tampermonkey belum terpasang.</span>";
-    }
-}
-detectTampermonkey();
-
-
-// --- TES LOADER ---
-function testLoader() {
-    fetch("https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/config.json")
-        .then(r => r.json())
-        .then(data => {
-            document.getElementById("loader-result").innerHTML =
-                "<span class='ok'>✔ Loader dapat membaca config.json</span><br>" +
-                "Modul terdaftar: " + data.modules.map(m => m.name).join(", ");
-        })
-        .catch(() => {
-            document.getElementById("loader-result").innerHTML =
-                "<span class='fail'>✘ Loader gagal membaca config.json</span>";
-        });
-}
-
-
-// --- TES MODUL (cek apakah file JS bisa di-load) ---
-function testModule() {
-    fetch("https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-close-notification.js")
-        .then(r => r.text())
-        .then(() => {
-            document.getElementById("module-result").innerHTML =
-                "<span class='ok'>✔ Modul auto-close-notification.js tersedia.</span>";
-        })
-        .catch(() => {
-            document.getElementById("module-result").innerHTML =
-                "<span class='fail'>✘ Modul tidak ditemukan.</span>";
-        });
+function installLoader() {
+    window.location.href =
+        "https://cobrabagaskara.github.io/centralized-userscript-manager/loader/Centralized-Userscript-Loader.user.js";
 }
 </script>
 
