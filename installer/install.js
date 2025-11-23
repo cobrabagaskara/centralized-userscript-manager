@@ -1,4 +1,4 @@
-const RAW_URL = "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/loader/Centralized-Userscript-Loader.user.js";
+const RAW_URL = "https://cobrabagaskara.github.io/centralized-userscript-manager/loader/Centralized-Userscript-Loader.user.js";
 
 // UI elements
 const statusBox = document.getElementById("tm-status");
