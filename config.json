@@ -1,1 +1,10 @@
+{
+  "modules": [
+    {
+      "name": "auto-close-notification",
+      "url": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-close-notification.js",
+      "enabled": true
+    }
+  ]
+}
 
