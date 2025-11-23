@@ -17,6 +17,13 @@
       "enabled": false,
       "tags": ["auth"],
       "priority": 20
+    },
+    {
+        "name": "test-module",
+      "file": "modules/test-module.js",
+      "version": "1.0.0",
+      "enabled": true
     }
+    
   ]
 }
