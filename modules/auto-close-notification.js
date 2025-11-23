@@ -1,6 +1,6 @@
-[
-    {
-        "name": "Auto Close Notification",
-        "url": "modules/auto-close-notification.js"
-    }
-]
+console.log("Module loaded: auto-close-notification");
+
+setInterval(() => {
+    const notif = document.querySelector(".iziToast-close");
+    if (notif) notif.click();
+}, 800);
