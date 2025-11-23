@@ -19,11 +19,10 @@
       "priority": 20
     },
     {
-        "name": "test-module",
+      "name": "test-module",
       "file": "modules/test-module.js",
       "version": "1.0.0",
       "enabled": true
     }
-    
   ]
 }
