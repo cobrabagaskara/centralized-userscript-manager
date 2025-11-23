@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2025-01-01T00:00:00Z",
+  "modules": [
+    {
+      "name": "auto-close-notification",
+      "file": "modules/auto-close-notification.js",
+      "version": "1.0.0",
+      "enabled": true,
+      "tags": ["ui", "automation"],
+      "priority": 10
+    },
+    {
+      "name": "auto-login",
+      "file": "modules/auto-login.js",
+      "version": "1.0.0",
+      "enabled": false,
+      "tags": ["auth"],
+      "priority": 20
+    }
+  ]
+}
