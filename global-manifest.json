@@ -2,7 +2,7 @@
   "name": "Jamu Loader — Test Manifest",
   "version": "1.0.0",
   "description": "Manifest untuk testing Jamu Loader extension",
-  "defaultEnabled": false
+  "defaultEnabled": false,
   "author": "yourname",
   "modules": [
     {
@@ -23,7 +23,7 @@
       "version": "1.0.1",
       "icon": "🔗",
       "description": "Highlight semua link di halaman dengan outline teal",
-      "defaultEnabled": false
+      "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/highlight-links.js",
       "matches": [
         "https://*.detik.com/*"
