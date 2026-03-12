@@ -425,7 +425,11 @@
           <div class="field">
             <label>Script URL di GitHub</label>
             <input type="text" id="fldScriptUrl"
-              placeholder="https://raw.githubusercontent.com/user/repo/main/modules/nama.js" />
+              placeholder="otomatis dari base URL + module ID"
+              value="https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/" />
+            <div style="font-family:var(--mono);font-size:10px;color:var(--text-dim);margin-top:5px;">
+              💡 Nama file (<code style="color:var(--accent)">{module-id}.js</code>) otomatis ditambahkan dari Module ID
+            </div>
           </div>
         </div>
       </div>
@@ -697,7 +701,11 @@ function doConvert(code) {
   const name    = document.getElementById('fldName').value.trim()    || meta.name    || id;
   const version = document.getElementById('fldVersion').value.trim() || meta.version || '1.0.0';
   const icon    = document.getElementById('fldIcon').value.trim()    || '🧩';
-  const scriptUrl = document.getElementById('fldScriptUrl').value.trim();
+  // Kalau URL diakhiri '/', otomatis tambahkan {id}.js
+  const rawScriptUrl = document.getElementById('fldScriptUrl').value.trim();
+  const scriptUrl = rawScriptUrl.endsWith('/')
+    ? rawScriptUrl + id + '.js'
+    : rawScriptUrl || `https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/${id}.js`;
 
   // ── Strip meta block ──
   let out = code.replace(/\/\/ ==UserScript==[\s\S]*?\/\/ ==\/UserScript==\n?/, '').trim();
