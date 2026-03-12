@@ -24,7 +24,7 @@
       "description": "Highlight semua link di halaman dengan outline teal",
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/highlight-links.js",
       "matches": [
-        "https://*/*"
+        "https://www.detik.com/*"
       ]
     }
   ]
