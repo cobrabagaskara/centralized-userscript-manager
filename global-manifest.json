@@ -32,10 +32,10 @@
     {
       "id": "google-notifikasi",
       "name": "Google Notifikasi Draggable",
-      "version": "1.0",
+      "version": "1.1",
       "icon": "🧩",
       "description": "Menampilkan UI draggable di Google dengan notifikasi",
-      "defaultEnabled": false,
+      "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/google-notifikasi.js",
       "matches": [
         "https://www.google.com/*",
