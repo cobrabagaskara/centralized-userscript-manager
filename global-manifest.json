@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "icon": "🧪",
       "description": "Banner test — muncul di pojok kanan bawah selama 5 detik",
-      "scriptUrl": "https://raw.githubusercontent.com/GITHUB_USERNAME/jamu-loader-modules/main/modules/test-banner.js",
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/test-banner.js",
       "matches": [
         "https://*/*",
         "http://*/*"
@@ -22,7 +22,7 @@
       "version": "1.0.0",
       "icon": "🔗",
       "description": "Highlight semua link di halaman dengan outline teal",
-      "scriptUrl": "https://raw.githubusercontent.com/GITHUB_USERNAME/jamu-loader-modules/main/modules/highlight-links.js",
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/highlight-links.js",
       "matches": [
         "https://*/*"
       ]
