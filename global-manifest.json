@@ -1,0 +1,31 @@
+{
+  "name": "Jamu Loader — Test Manifest",
+  "version": "1.0.0",
+  "description": "Manifest untuk testing Jamu Loader extension",
+  "author": "yourname",
+  "modules": [
+    {
+      "id": "test-banner",
+      "name": "Test Banner",
+      "version": "1.0.0",
+      "icon": "🧪",
+      "description": "Banner test — muncul di pojok kanan bawah selama 5 detik",
+      "scriptUrl": "https://raw.githubusercontent.com/GITHUB_USERNAME/jamu-loader-modules/main/modules/test-banner.js",
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ]
+    },
+    {
+      "id": "highlight-links",
+      "name": "Highlight Links",
+      "version": "1.0.0",
+      "icon": "🔗",
+      "description": "Highlight semua link di halaman dengan outline teal",
+      "scriptUrl": "https://raw.githubusercontent.com/GITHUB_USERNAME/jamu-loader-modules/main/modules/highlight-links.js",
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ]
+}
