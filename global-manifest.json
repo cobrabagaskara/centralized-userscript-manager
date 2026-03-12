@@ -1,7 +1,6 @@
 {
   "name": "Jamu Loader — Test Manifest",
   "version": "1.0.0",
-  "defaultEnabled": false,
   "description": "Manifest untuk testing Jamu Loader extension",
   "author": "yourname",
   "modules": [
@@ -10,6 +9,7 @@
       "name": "Test Banner",
       "version": "1.0.2",
       "icon": "🧪",
+      "defaultEnabled": false,
       "description": "Banner test — muncul di pojok kanan bawah selama 5 detik",
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/test-banner.js",
       "matches": [
