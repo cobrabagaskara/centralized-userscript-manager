@@ -363,7 +363,7 @@
       <h1>Jamu Loader Converter</h1>
       <p>Konversi Tampermonkey script ke format modul Jamu Loader</p>
     </div>
-    <div class="header-badge">v1.1.0</div>
+    <div class="header-badge">v1.0.0</div>
   </header>
 
   <div class="grid">
@@ -737,8 +737,19 @@ function doConvert(code) {
   // ── Strip meta block ──
   let out = code.replace(/\/\/ ==UserScript==[\s\S]*?\/\/ ==\/UserScript==\n?/, '').trim();
 
-  // ── Remove 'use strict' if option on ──
-  if (document.getElementById('optRemoveStrict').checked) {
+  // ── Deteksi & strip IIFE wrapper bawaan Tampermonkey ──
+  // Pola: (function() { ... })(); atau (function () { ... }()); atau !function(){...}();
+  // Jika ditemukan → ambil isi dalamnya saja, agar tidak terjadi double-wrap
+  let strippedIIFE = false;
+  const iifeMatch = out.match(/^[!]?\(function\s*\(\s*\)\s*\{([\s\S]*)\}\s*\)\s*\(\s*\)\s*;?\s*$/);
+  if (iifeMatch) {
+    out = iifeMatch[1].trim();
+    strippedIIFE = true;
+    warnings.push({ level: 'ok', msg: 'IIFE bawaan Tampermonkey terdeteksi dan sudah di-strip otomatis ✓' });
+  }
+
+  // ── Hapus 'use strict' (selalu dihapus jika ada IIFE strip, atau jika opsi aktif) ──
+  if (strippedIIFE || document.getElementById('optRemoveStrict').checked) {
     out = out.replace(/^\s*["']use strict["'];?\s*\n?/m, '');
   }
 
