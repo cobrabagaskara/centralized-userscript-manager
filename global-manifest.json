@@ -1,8 +1,11 @@
 {
   "name": "Jamu Loader — Test Manifest",
   "version": "1.0.0",
+  "tracking": {
+    "endpoint": "https://script.google.com/macros/s/AKfycbyEcm0QQnHe_fhw-KHhhBs8Db6CtpLhGBfJpkKzpGwD5sPnNXxACNk3uk-FHKy0Dt_l/exec",
+    "key": "JamuLoader2025"
   "description": "Manifest untuk testing Jamu Loader extension",
-  "author": "yourname",
+  "author": "Aang",
   "modules": [
     {
       "id": "test-banner",
