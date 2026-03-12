@@ -363,7 +363,7 @@
       <h1>Jamu Loader Converter</h1>
       <p>Konversi Tampermonkey script ke format modul Jamu Loader</p>
     </div>
-    <div class="header-badge">v1.0.1</div>
+    <div class="header-badge">v1.0.0</div>
   </header>
 
   <div class="grid">
@@ -420,7 +420,34 @@
           </div>
           <div class="field">
             <label>Icon (emoji)</label>
-            <input type="text" id="fldIcon" placeholder="🧩" maxlength="2" style="width:60px;" />
+            <div style="position:relative;">
+              <div id="emojiDisplay" style="
+                display:flex;align-items:center;gap:8px;
+                background:var(--bg3);border:1px solid var(--border2);
+                border-radius:6px;padding:7px 10px;cursor:pointer;
+                transition:border-color 0.15s;user-select:none;
+              " onclick="toggleEmojiPicker()">
+                <span id="emojiSelected" style="font-size:18px;">🧩</span>
+                <span style="font-family:var(--mono);font-size:11px;color:var(--text-dim);">Pilih icon</span>
+                <span style="margin-left:auto;font-size:10px;color:var(--text-dim);">▾</span>
+              </div>
+              <input type="hidden" id="fldIcon" value="🧩" />
+              <div id="emojiPicker" style="
+                display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:100;
+                background:var(--bg2);border:1px solid var(--border2);border-radius:8px;
+                padding:10px;width:280px;box-shadow:0 8px 24px rgba(0,0,0,0.4);
+              ">
+                <input id="emojiSearch" type="text" placeholder="Cari emoji... (contoh: tools, star)" style="
+                  width:100%;background:var(--bg3);border:1px solid var(--border2);
+                  border-radius:5px;padding:6px 9px;color:var(--text-hi);
+                  font-family:var(--mono);font-size:11px;outline:none;margin-bottom:8px;
+                " oninput="filterEmoji(this.value)" />
+                <div id="emojiGrid" style="
+                  display:grid;grid-template-columns:repeat(8,1fr);gap:2px;
+                  max-height:200px;overflow-y:auto;scrollbar-width:thin;
+                "></div>
+              </div>
+            </div>
           </div>
           <div class="field">
             <label>Script URL di GitHub</label>
@@ -865,6 +892,81 @@ function switchTab(name) {
   document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === 'tab-' + name));
 }
 
+// ── Emoji Picker ─────────────────────────────────────────────
+const EMOJIS = [
+  {e:'🧩',k:'puzzle module'},{e:'🔧',k:'tools wrench fix'},{e:'⚙️',k:'settings gear'},{e:'🛠️',k:'tools build'},
+  {e:'🔌',k:'plugin connect'},{e:'💉',k:'inject script'},{e:'🚀',k:'launch fast'},{e:'⚡',k:'fast bolt'},
+  {e:'🎯',k:'target aim'},{e:'🔍',k:'search find'},{e:'🌐',k:'web internet'},{e:'📋',k:'clipboard copy'},
+  {e:'📝',k:'edit write note'},{e:'✏️',k:'edit pencil'},{e:'🖊️',k:'pen write'},{e:'📌',k:'pin location'},
+  {e:'🗂️',k:'folder organize'},{e:'📁',k:'folder files'},{e:'📂',k:'open folder'},{e:'💾',k:'save disk'},
+  {e:'🖥️',k:'screen desktop'},{e:'💻',k:'laptop computer'},{e:'📱',k:'mobile phone'},{e:'🖨️',k:'print'},
+  {e:'🔒',k:'lock security'},{e:'🔓',k:'unlock open'},{e:'🛡️',k:'shield protect'},{e:'🔑',k:'key access'},
+  {e:'👁️',k:'eye view watch'},{e:'🕵️',k:'spy detective'},{e:'🧠',k:'brain smart'},{e:'🤖',k:'robot auto'},
+  {e:'🧪',k:'test lab experiment'},{e:'🔬',k:'microscope research'},{e:'📊',k:'chart data stats'},
+  {e:'📈',k:'chart up growth'},{e:'📉',k:'chart down'},{e:'🗃️',k:'database storage'},
+  {e:'📡',k:'signal network'},{e:'🌍',k:'world global'},{e:'🏥',k:'hospital medical'},
+  {e:'💊',k:'pill medicine'},{e:'🩺',k:'doctor stethoscope'},{e:'🧬',k:'dna biology'},
+  {e:'📅',k:'calendar date'},{e:'⏰',k:'clock time alarm'},{e:'⏱️',k:'timer stopwatch'},
+  {e:'🔔',k:'bell notification'},{e:'🔕',k:'mute silent'},{e:'💬',k:'chat message'},
+  {e:'📧',k:'email mail'},{e:'📨',k:'inbox receive'},{e:'📤',k:'upload send'},
+  {e:'🎨',k:'design art color'},{e:'🖼️',k:'image picture'},{e:'✨',k:'sparkle magic'},
+  {e:'⭐',k:'star favorite'},{e:'🌟',k:'star glow'},{e:'💡',k:'idea light bulb'},
+  {e:'🔥',k:'fire hot'},{e:'❄️',k:'cold freeze'},{e:'🌊',k:'wave water'},
+  {e:'🎁',k:'gift package'},{e:'🏷️',k:'tag label'},{e:'📦',k:'box package'},
+  {e:'🚦',k:'traffic signal status'},{e:'🔴',k:'red stop'},{e:'🟢',k:'green go active'},
+  {e:'🟡',k:'yellow warn'},{e:'🔵',k:'blue info'},{e:'⚪',k:'white empty'},
+  {e:'➕',k:'add plus'},{e:'➖',k:'remove minus'},{e:'✅',k:'check done ok'},
+  {e:'❌',k:'cross error fail'},{e:'⚠️',k:'warning alert'},{e:'ℹ️',k:'info help'},
+];
+
+let emojiPickerOpen = false;
+
+function renderEmoji(list) {
+  const grid = document.getElementById('emojiGrid');
+  grid.innerHTML = list.map(({e,k}) =>
+    `<button title="${k}" onclick="selectEmoji('${e}')" style="
+      background:none;border:none;cursor:pointer;font-size:18px;
+      padding:4px;border-radius:4px;transition:background 0.1s;
+    " onmouseover="this.style.background='var(--adim)'" onmouseout="this.style.background='none'">${e}</button>`
+  ).join('');
+}
+
+function filterEmoji(q) {
+  const filtered = q.trim()
+    ? EMOJIS.filter(({e,k}) => k.includes(q.toLowerCase()) || e.includes(q))
+    : EMOJIS;
+  renderEmoji(filtered);
+}
+
+function toggleEmojiPicker() {
+  emojiPickerOpen = !emojiPickerOpen;
+  const picker = document.getElementById('emojiPicker');
+  const display = document.getElementById('emojiDisplay');
+  picker.style.display = emojiPickerOpen ? 'block' : 'none';
+  display.style.borderColor = emojiPickerOpen ? 'var(--accent)' : 'var(--border2)';
+  if (emojiPickerOpen) {
+    renderEmoji(EMOJIS);
+    document.getElementById('emojiSearch').focus();
+  }
+}
+
+function selectEmoji(emoji) {
+  document.getElementById('fldIcon').value = emoji;
+  document.getElementById('emojiSelected').textContent = emoji;
+  document.getElementById('emojiPicker').style.display = 'none';
+  emojiPickerOpen = false;
+  document.getElementById('emojiDisplay').style.borderColor = 'var(--border2)';
+}
+
+// Close picker on outside click
+document.addEventListener('click', e => {
+  if (emojiPickerOpen && !e.target.closest('#emojiPicker') && !e.target.closest('#emojiDisplay')) {
+    document.getElementById('emojiPicker').style.display = 'none';
+    emojiPickerOpen = false;
+    document.getElementById('emojiDisplay').style.borderColor = 'var(--border2)';
+  }
+});
+
 // ── Utils ─────────────────────────────────────────────────────
 function setStatus(type, msg) {
   statusBar.className = 'status-bar ' + (type === 'ok' ? 'ok' : type === 'error' ? 'err' : type === 'warn' ? 'warn' : '');
@@ -881,7 +983,13 @@ function copyOutput(id, btn) {
   });
 }
 
-function downloadOutput(filename, content) {
+function downloadOutput(filenameOrAuto, content) {
+  // If 'script.js' → use current module ID as filename
+  let filename = filenameOrAuto;
+  if (filenameOrAuto === 'script.js') {
+    const id = document.getElementById('fldId').value.trim() || 'module';
+    filename = id + '.js';
+  }
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([content], { type: 'text/plain' }));
   a.download = filename;
