@@ -7,7 +7,7 @@
     {
       "id": "test-banner",
       "name": "Test Banner",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "🧪",
       "description": "Banner test — muncul di pojok kanan bawah selama 5 detik",
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/test-banner.js",
