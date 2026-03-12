@@ -39,7 +39,8 @@
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/google-notifikasi.js",
       "matches": [
         "https://www.google.com/*",
-        "https://google.com/*"
+        "https://google.com/*",
+        "https://*.epuskesmas.id/*
       ]
     }
 
