@@ -42,7 +42,20 @@
         "https://google.com/*",
         "https://*.epuskesmas.id/*"
       ]
-    }
+    },
+
+    {
+  "id": "bpjs-survey-auto-fill",
+  "name": "BPJS Survey Auto Fill",
+  "version": "1.5",
+  "icon": "📝",
+  "description": "Auto fill BPJS survey - semua jawaban 'Tidak', auto next page",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-survey-auto-fill.js",
+  "matches": [
+    "https://webskrining.bpjs-kesehatan.go.id/*"
+  ]
+}
 
 
 
