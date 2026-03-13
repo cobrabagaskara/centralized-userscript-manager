@@ -1,12 +1,21 @@
 {
   "name": "Jamu Loader — Test Manifest",
   "version": "1.0.1",
+  "author": "Aang",
+  "description": "Manifest untuk testing Jamu Loader extension",
+  "minExtensionVersion": "1.0.1",
   "tracking": {
     "endpoint": "https://script.google.com/macros/s/AKfycbyEcm0QQnHe_fhw-KHhhBs8Db6CtpLhGBfJpkKzpGwD5sPnNXxACNk3uk-FHKy0Dt_l/exec",
     "key": "JamuLoader2025"
   },
-  "description": "Manifest untuk testing Jamu Loader extension",
-  "author": "Aang",
+  
+
+  "whitelist": {
+    "url": "https://raw.githubusercontent.com/USER/REPO/main/whitelist.json",
+    "selector": "#menu_user .label-default"
+  },
+
+  
   "modules": [
     {
       "id": "test-banner",
