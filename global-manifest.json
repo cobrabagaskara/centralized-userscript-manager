@@ -78,6 +78,18 @@
       "matches": [
         "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
       ]
+    },
+
+        {
+      "id": "skrining-malaria",
+      "name": "Auto Fill Skrining Malaria",
+      "version": "1.0",
+      "icon": "🧩",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-malaria.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningmalaria/create/*"
+      ]
     }
 
 
