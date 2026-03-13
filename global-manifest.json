@@ -9,13 +9,11 @@
     "key": "JamuLoader2025"
   },
   
-
   "whitelist": {
-    "url": "https://raw.githubusercontent.com/USER/REPO/main/whitelist.json",
+    "url": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/refs/heads/main/whitelist.json",
     "selector": "#menu_user .label-default"
   },
 
-  
   "modules": [
     {
       "id": "test-banner",
