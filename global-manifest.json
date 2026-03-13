@@ -13,6 +13,16 @@
     "selector": "#menu_user .label-default"
   },
   "modules": [
-    
+{
+  "id": "step-1-data-pasien-reader",
+  "name": "Data Pasien Reader",
+  "version": "1.0",
+  "icon": "🛠️",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
   ]
+}
+]
 }
