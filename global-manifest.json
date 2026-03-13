@@ -60,18 +60,18 @@
         "https://webskrining.bpjs-kesehatan.go.id/*"
       ]
     },
-    {
-  "id": "data-pasien-reader",
-  "name": "Step 1: Data Pasien Reader",
-  "version": "1.0",
-  "icon": "📡",
-  "description": "Baca data pasien dan simpan ke localStorage",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
-  ]
-}
+        {
+      "id": "data-pasien-reader",
+      "name": "Step 1: Data Pasien Reader",
+      "version": "1.0",
+      "icon": "📡",
+      "description": "Baca data pasien dan simpan ke localStorage",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+      ]
+    }
 
 
 
