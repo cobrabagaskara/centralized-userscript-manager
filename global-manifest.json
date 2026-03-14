@@ -14,25 +14,25 @@
   },
   "modules": [
     {
-      "id": "skrining-faktor-risiko-dokter-anggi-final",
-      "name": "Skrining Faktor Risiko - Dokter Anggi (FINAL)",
-      "version": "1.0",
-      "icon": "ð ï¸",
-      "defaultEnabled": true,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko-dokter-anggi-final.js",
-      "matches": [
-        "https://cirebon.epuskesmas.id/skriningfaktorrisiko/create/*"
-      ]
-    },
-    {
       "id": "step-1-data-pasien-reader",
       "name": "Data Pasien Reader",
       "version": "1.0",
-      "icon": "ð ï¸",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
       "matches": [
         "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+      ]
+    },
+    {
+      "id": "skrining-faktor-risiko-dokter-anggi-final",
+      "name": "Skrining Faktor Risiko - Dokter Anggi (FINAL)",
+      "version": "1.0",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko-dokter-anggi-final.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningfaktorrisiko/create/*"
       ]
     }
   ]
