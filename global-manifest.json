@@ -17,7 +17,7 @@
       "id": "step-1-data-pasien-reader",
       "name": "Data Pasien Reader",
       "version": "1.0",
-      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
+      "icon": "🛠️",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
       "matches": [
@@ -28,7 +28,7 @@
       "id": "skrining-faktor-risiko-dokter-anggi-final",
       "name": "Skrining Faktor Risiko - Dokter Anggi (FINAL)",
       "version": "1.0",
-      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
+      "icon": "🛠️",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko-dokter-anggi-final.js",
       "matches": [
