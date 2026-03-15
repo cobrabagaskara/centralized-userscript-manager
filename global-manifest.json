@@ -17,7 +17,7 @@
       "id": "skrining-ad-8-ina",
       "name": "Skrining AD-8 INA",
       "version": "1.0",
-      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
+      "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
       "matches": [
@@ -29,7 +29,7 @@
       "id": "skrining-lansia-sederhana-skilas",
       "name": "Skrining Lansia Sederhana (SKILAS)",
       "version": "1.0",
-      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
+      "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana-skilas.js",
       "matches": [
@@ -41,7 +41,7 @@
       "id": "skrining-tbc",
       "name": "Skrining TBC",
       "version": "1.0",
-      "icon": "ð ï¸",
+      "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
       "matches": [
@@ -53,7 +53,7 @@
       "id": "skrining-adl",
       "name": "Skrining ADL",
       "version": "1.0",
-      "icon": "🧩",
+      "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-adl.js",
       "matches": [
