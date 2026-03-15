@@ -84,6 +84,18 @@
         "https://cirebon.epuskesmas.id/skrininganemia/*"
       ],
       "userSelector": "#menu_user .label-default"
+    },
+    {
+      "id": "skrining-diabetes-melitus",
+      "name": "Skrining Diabetes Melitus",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-diabetes-melitus.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningdiabetesmelitus/*"
+      ],
+      "userSelector": "#menu_user .label-default"
     }
   ]
 }
