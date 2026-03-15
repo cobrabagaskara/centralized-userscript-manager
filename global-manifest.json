@@ -14,6 +14,18 @@
   },
   "modules": [
     {
+      "id": "data-pasien-reader",
+      "name": "Data Pasien Reader",
+      "version": "1.0",
+      "icon": "⚙️",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
+    {
       "id": "skrining-ad-8-ina",
       "name": "Skrining AD-8 INA",
       "version": "1.0",
@@ -70,18 +82,6 @@
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-anemia.js",
       "matches": [
         "https://cirebon.epuskesmas.id/skrininganemia/*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
-    {
-      "id": "data-pasien-reader",
-      "name": "Data Pasien Reader",
-      "version": "1.0",
-      "icon": "⚙️",
-      "defaultEnabled": true,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
-      "matches": [
-        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
       ],
       "userSelector": "#menu_user .label-default"
     }
