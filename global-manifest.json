@@ -24,6 +24,20 @@
         "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
       ]
     },
+
+{
+  "id": "skrining-ad-8-ina",
+  "name": "Skrining AD-8 INA",
+  "version": "2026-03-15",
+  "icon": "📝",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
+  "matches": [
+    "https://*/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
+
     {
       "id": "skrining-indra-pendengaran",
       "name": "Skrining Indra Pendengaran",
@@ -35,20 +49,6 @@
         "https://cirebon.epuskesmas.id/skriningindrapendengaran/create/*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-
-{
-  "id": "skrining-lansia-sederhana",
-  "name": "Skrining Lansia Sederhana (SKILAS)",
-  "version": "2026-03-15",
-  "icon": "📝",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/skriningskilas/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
-
+    }
   ]
 }
