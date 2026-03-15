@@ -17,7 +17,7 @@
       "id": "step-1-data-pasien-reader",
       "name": "Data Pasien Reader",
       "version": "1.0",
-      "icon": "ð ï¸",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
       "matches": [
@@ -28,13 +28,27 @@
       "id": "skrining-indra-pendengaran",
       "name": "Skrining Indra Pendengaran",
       "version": "1.0",
-      "icon": "ð ï¸",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-indra-pendengaran.js",
       "matches": [
         "https://cirebon.epuskesmas.id/skriningindrapendengaran/create/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+
+{
+  "id": "skrining-lansia-sederhana",
+  "name": "Skrining Lansia Sederhana (SKILAS)",
+  "version": "2026-03-15",
+  "icon": "📝",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/skriningskilas/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
+
   ]
 }
