@@ -17,32 +17,30 @@
       "id": "step-1-data-pasien-reader",
       "name": "Data Pasien Reader",
       "version": "1.0",
-      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
+      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
       "matches": [
         "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
       ]
     },
-
-{
-  "id": "skrining-ad-8-ina",
-  "name": "Skrining AD-8 INA",
-  "version": "2026-03-15",
-  "icon": "📝",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
-  "matches": [
-    "https://*/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-},
-
+    {
+      "id": "skrining-ad-8-ina",
+      "name": "Skrining AD-8 INA",
+      "version": "2026-03-15",
+      "icon": "ð",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningascertaindementia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
     {
       "id": "skrining-indra-pendengaran",
       "name": "Skrining Indra Pendengaran",
       "version": "1.0",
-      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
+      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-indra-pendengaran.js",
       "matches": [
