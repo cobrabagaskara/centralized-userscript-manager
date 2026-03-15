@@ -116,7 +116,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko.js",
       "matches": [
-        "https://*/*"
+        "https://cirebon.epuskesmas.id/skriningfaktorrisiko/*"
       ],
       "userSelector": "#menu_user .label-default"
     }
