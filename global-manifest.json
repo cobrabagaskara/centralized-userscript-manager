@@ -17,7 +17,7 @@
       "id": "step-1-data-pasien-reader",
       "name": "Step 1: Data Pasien Reader",
       "version": "1.0",
-      "icon": "ÃÂ°ÃÂÃÂÃÂ ÃÂ¯ÃÂ¸ÃÂ",
+      "icon": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
       "matches": [
@@ -29,7 +29,7 @@
       "id": "skrining-ad-8-ina",
       "name": "Skrining AD-8 INA",
       "version": "1.0",
-      "icon": "ð ï¸",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
       "matches": [
@@ -37,15 +37,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-lansia-sederhana-skilas",
+      "name": "Skrining Lansia Sederhana (SKILAS)",
+      "version": "1.0",
+      "icon": "ð ï¸",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana-skilas.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningskilas/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-lansia-sederhana-skilas",
-  "name": "Skrining Lansia Sederhana (SKILAS)",
+  "id": "skrining-tbc",
+  "name": "Skrining TBC",
   "version": "1.0",
   "icon": "🛠️",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana-skilas.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/skriningskilas/*"
+    "https://cirebon.epuskesmas.id/skrining/tbc/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
