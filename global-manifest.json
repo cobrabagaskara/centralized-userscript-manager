@@ -107,6 +107,18 @@
       "matches": [
         "https://webskrining.bpjs-kesehatan.go.id/*"
       ]
+    },
+    {
+      "id": "skrining-faktor-risiko",
+      "name": "Skrining Faktor Risiko",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko.js",
+      "matches": [
+        "https://*/*"
+      ],
+      "userSelector": "#menu_user .label-default"
     }
   ]
 }
