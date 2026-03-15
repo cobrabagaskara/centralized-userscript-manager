@@ -144,15 +144,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-gigi-lansia",
+      "name": "Skrining Gigi Lansia",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-lansia.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningkesehatangigilansia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-gigi-lansia",
-  "name": "Skrining Gigi Lansia",
+  "id": "skrining-gigi-mulut-remaja",
+  "name": "Skrining Gigi & Mulut Remaja",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-lansia.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-mulut-remaja.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/skriningkesehatangigilansia/*"
+    "https://cirebon.epuskesmas.id/skriningkesehatangigimulutremaja*"
   ],
   "userSelector": "#menu_user .label-default"
 }
