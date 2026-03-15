@@ -25,17 +25,17 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "skrining-ad-8-ina",
-  "name": "Skrining AD-8 INA",
-  "version": "2026-03-15",
-  "icon": "🛠️",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/skriningascertaindementia/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "skrining-ad-8-ina",
+      "name": "Skrining AD-8 INA",
+      "version": "2026-03-15",
+      "icon": "🛠️",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningascertaindementia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
