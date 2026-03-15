@@ -131,6 +131,18 @@
         "https://cirebon.epuskesmas.id/skrining/gds/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "skrining-gigi-dewasa",
+  "name": "Skrining Gigi Dewasa",
+  "version": "1.0",
+  "icon": "📝",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-dewasa.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/skriningkesehatangigidewasa/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
