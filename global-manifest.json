@@ -96,6 +96,17 @@
         "https://cirebon.epuskesmas.id/skriningdiabetesmelitus/*"
       ],
       "userSelector": "#menu_user .label-default"
+    },
+    {
+      "id": "bpjs-survey-auto-fill",
+      "name": "BPJS Survey Auto Fill",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-survey-auto-fill.js",
+      "matches": [
+        "https://webskrining.bpjs-kesehatan.go.id/*"
+      ]
     }
   ]
 }
