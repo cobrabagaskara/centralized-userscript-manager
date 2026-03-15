@@ -49,17 +49,17 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "skrining-tbc",
-  "name": "Skrining TBC",
-  "version": "1.0",
-  "icon": "🛠️",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/skrining/tbc/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "skrining-tbc",
+      "name": "Skrining TBC",
+      "version": "1.0",
+      "icon": "🛠️",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skrining/tbc/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
