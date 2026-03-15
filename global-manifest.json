@@ -14,18 +14,6 @@
   },
   "modules": [
     {
-      "id": "step-1-data-pasien-reader",
-      "name": "Step 1: Data Pasien Reader",
-      "version": "1.0",
-      "icon": "ÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂ¯ÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂ",
-      "defaultEnabled": true,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/step-1-data-pasien-reader.js",
-      "matches": [
-        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
-    {
       "id": "skrining-ad-8-ina",
       "name": "Skrining AD-8 INA",
       "version": "1.0",
@@ -73,17 +61,17 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "skrining-anemia",
-  "name": "Skrining Anemia",
-  "version": "1.0",
-  "icon": "📝",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-anemia.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/skrininganemia/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "skrining-anemia",
+      "name": "Skrining Anemia",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-anemia.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skrininganemia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
