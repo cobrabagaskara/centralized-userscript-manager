@@ -203,6 +203,18 @@
         "https://cirebon.epuskesmas.id/skriningindrapendengaran/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "skrining-kanker-kolorektal",
+  "name": "Skrining Kanker Kolorektal",
+  "version": "1.0",
+  "icon": "📝",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kanker-kolorektal.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/skriningkankerkolorektal/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
