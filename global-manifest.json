@@ -204,15 +204,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-kanker-kolorektal",
+      "name": "Skrining Kanker Kolorektal",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kanker-kolorektal.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningkankerkolorektal/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-kanker-kolorektal",
-  "name": "Skrining Kanker Kolorektal",
+  "id": "skrining-kelainan-empedu-bayi",
+  "name": "Skrining Kelainan Empedu Bayi",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kanker-kolorektal.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kelainan-empedu-bayi.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/skriningkankerkolorektal/*"
+    "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
