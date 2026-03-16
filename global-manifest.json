@@ -216,15 +216,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-kelainan-empedu-bayi",
+      "name": "Skrining Kelainan Empedu Bayi",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kelainan-empedu-bayi.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-kelainan-empedu-bayi",
-  "name": "Skrining Kelainan Empedu Bayi",
+  "id": "skrining-kesehatan-gigi-mulut-balita",
+  "name": "Skrining Kesehatan Gigi & Mulut Balita",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kelainan-empedu-bayi.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-gigi-mulut-balita.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/*"
+    "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
