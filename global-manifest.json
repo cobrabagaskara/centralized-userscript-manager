@@ -251,6 +251,18 @@
         "https://*.epuskesmas.id/skriningkesehatanjiwadewasalansia/*"
       ],
       "userSelector": "#menu_user .label-default"
+    },
+    {
+      "id": "skrining-kesehatan-penglihatan",
+      "name": "Skrining Kesehatan Penglihatan",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-penglihatan.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningkesehatanpenglihatan/*"
+      ],
+      "userSelector": "#menu_user .label-default"
     }
   ]
 }
