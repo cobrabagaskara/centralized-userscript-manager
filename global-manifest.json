@@ -263,6 +263,18 @@
         "https://*.epuskesmas.id/skriningkesehatanpenglihatan/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "skrining-layak-hamil",
+  "name": "Skrining Layak Hamil",
+  "version": "1.0",
+  "icon": "📝",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-layak-hamil.js",
+  "matches": [
+    "https://*.epuskesmas.id/skrininglayakhamil/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
