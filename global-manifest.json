@@ -179,6 +179,18 @@
         "https://cirebon.epuskesmas.id/skrininghipertensi/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "skrining-imunisasi-dewasa",
+  "name": "Skrining Imunisasi Dewasa",
+  "version": "1.0",
+  "icon": "🧩",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-imunisasi-dewasa.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/skriningimunisasidewasa/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
