@@ -228,15 +228,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-kesehatan-gigi-mulut-balita",
+      "name": "Skrining Kesehatan Gigi & Mulut Balita",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-gigi-mulut-balita.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-kesehatan-gigi-mulut-balita",
-  "name": "Skrining Kesehatan Gigi & Mulut Balita",
-  "version": "1.0",
+  "id": "skrining-kesehatan-jiwa-phq-4",
+  "name": "Skrining Kesehatan Jiwa PHQ-4",
+  "version": "2026-03-16",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-gigi-mulut-balita.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-jiwa-phq-4.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/*"
+    "https://*.epuskesmas.id/skriningkesehatanjiwadewasalansia/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
