@@ -21,7 +21,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+        "https://*.epuskesmas.id/klaster_siklushidup/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -33,7 +33,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningascertaindementia/*"
+        "https://*.epuskesmas.id/skriningascertaindementia/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -45,7 +45,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana-skilas.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningskilas/*"
+        "https://*.epuskesmas.id/skriningskilas/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -57,7 +57,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skrining/tbc/*"
+        "https://*.epuskesmas.id/skrining/tbc/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -69,7 +69,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-adl.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningadl/*"
+        "https://*.epuskesmas.id/skriningadl/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -81,7 +81,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-anemia.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skrininganemia/*"
+        "https://*.epuskesmas.id/skrininganemia/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -93,7 +93,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-diabetes-melitus.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningdiabetesmelitus/*"
+        "https://*.epuskesmas.id/skriningdiabetesmelitus/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -116,7 +116,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningfaktorrisiko/*"
+        "https://*.epuskesmas.id/skriningfaktorrisiko/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -128,7 +128,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gds-4.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skrining/gds/*"
+        "https://*.epuskesmas.id/skrining/gds/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -140,7 +140,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-dewasa.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkesehatangigidewasa/*"
+        "https://*.epuskesmas.id/skriningkesehatangigidewasa/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -152,7 +152,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-lansia.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkesehatangigilansia/*"
+        "https://*.epuskesmas.id/skriningkesehatangigilansia/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -164,7 +164,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-mulut-remaja.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkesehatangigimulutremaja*"
+        "https://*.epuskesmas.id/skriningkesehatangigimulutremaja*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -176,7 +176,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-hipertensi.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skrininghipertensi/*"
+        "https://*.epuskesmas.id/skrininghipertensi/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -188,7 +188,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-imunisasi-dewasa.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningimunisasidewasa/*"
+        "https://*.epuskesmas.id/skriningimunisasidewasa/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -200,7 +200,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-indra-pendengaran.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningindrapendengaran/*"
+        "https://*.epuskesmas.id/skriningindrapendengaran/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -212,7 +212,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kanker-kolorektal.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkankerkolorektal/*"
+        "https://*.epuskesmas.id/skriningkankerkolorektal/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -224,7 +224,7 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kelainan-empedu-bayi.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkelainanempedubayi/*"
+        "https://*.epuskesmas.id/skriningkelainanempedubayi/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
@@ -236,21 +236,21 @@
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-gigi-mulut-balita.js",
       "matches": [
-        "https://cirebon.epuskesmas.id/skriningkesehatangigimulutbalita/*"
+        "https://*.epuskesmas.id/skriningkesehatangigimulutbalita/*"
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "skrining-kesehatan-jiwa-phq-4",
-  "name": "Skrining Kesehatan Jiwa PHQ-4",
-  "version": "2026-03-16",
-  "icon": "📝",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-jiwa-phq-4.js",
-  "matches": [
-    "https://*.epuskesmas.id/skriningkesehatanjiwadewasalansia/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "skrining-kesehatan-jiwa-phq-4",
+      "name": "Skrining Kesehatan Jiwa PHQ-4",
+      "version": "2026-03-16",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-jiwa-phq-4.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningkesehatanjiwadewasalansia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
