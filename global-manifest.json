@@ -456,15 +456,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-who-assist",
+      "name": "Skrining WHO - ASSIST",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-who-assist.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningwho/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-who-assist",
-  "name": "Skrining WHO - ASSIST",
+  "id": "skrining-risiko-kanker-serviks",
+  "name": "Skrining Risiko Kanker Serviks",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-who-assist.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-serviks.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningwho/*"
+    "https://*.epuskesmas.id/risikokankerserviks/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
