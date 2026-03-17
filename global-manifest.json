@@ -372,15 +372,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-risiko-stroke",
+      "name": "Skrining Risiko Stroke",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-stroke.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningrisikostroke/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-risiko-stroke",
-  "name": "Skrining Risiko Stroke",
+  "id": "skrining-sdq-11-18-tahun",
+  "name": "Skrining SDQ (11 - 18 Tahun)",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-stroke.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-sdq-11-18-tahun.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningrisikostroke/*"
+    "https://*.epuskesmas.id/skriningsdq1118/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
