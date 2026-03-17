@@ -336,15 +336,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-risiko-kanker-paru",
+      "name": "Skrining Risiko Kanker Paru",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-paru.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningkankerparu*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-risiko-kanker-paru",
-  "name": "Skrining Risiko Kanker Paru",
+  "id": "skrining-risiko-kanker-payudara",
+  "name": "Skrining Risiko Kanker Payudara",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-paru.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-payudara.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningkankerparu*"
+    "https://cirebon.epuskesmas.id/skriningkankerpayudara/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
