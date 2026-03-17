@@ -324,15 +324,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-ppok-dengan-kuesioner-puma",
+      "name": "Skrining PPOK dengan Kuesioner PUMA",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ppok-dengan-kuesioner-puma.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningpuma/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-ppok-dengan-kuesioner-puma",
-  "name": "Skrining PPOK dengan Kuesioner PUMA",
+  "id": "skrining-risiko-kanker-paru",
+  "name": "Skrining Risiko Kanker Paru",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ppok-dengan-kuesioner-puma.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-paru.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningpuma/*"
+    "https://*.epuskesmas.id/skriningkankerparu*"
   ],
   "userSelector": "#menu_user .label-default"
 }
