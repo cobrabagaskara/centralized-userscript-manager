@@ -408,15 +408,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-srq-29",
+      "name": "Skrining SRQ-29",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-srq-29.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningsrq29/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-srq-29",
-  "name": "Skrining SRQ-29",
+  "id": "skrining-tbc",
+  "name": "Skrining TBC",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-srq-29.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningsrq29/*"
+    "https://*.epuskesmas.id/skrining/tbc/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
