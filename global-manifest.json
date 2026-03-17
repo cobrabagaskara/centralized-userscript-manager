@@ -360,15 +360,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-risiko-penyakit-jantung",
+      "name": "Skrining Risiko Penyakit Jantung",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-penyakit-jantung.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningrisikojantung/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-risiko-penyakit-jantung",
-  "name": "Skrining Risiko Penyakit Jantung",
+  "id": "skrining-risiko-stroke",
+  "name": "Skrining Risiko Stroke",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-penyakit-jantung.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-stroke.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningrisikojantung/*"
+    "https://*.epuskesmas.id/skriningrisikostroke/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
