@@ -432,15 +432,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "skrining-thalasemia",
+      "name": "Skrining Thalasemia",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-thalasemia.js",
+      "matches": [
+        "https://*.epuskesmas.id/skriningthalasemia/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "skrining-thalasemia",
-  "name": "Skrining Thalasemia",
+  "id": "skrining-kekerasan-pada-perempuan",
+  "name": "Skrining Kekerasan pada Perempuan",
   "version": "1.0",
   "icon": "📝",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-thalasemia.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kekerasan-pada-perempuan.js",
   "matches": [
-    "https://*.epuskesmas.id/skriningthalasemia/*"
+    "https://*.epuskesmas.id/skrining/kekerasanperempuan/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
