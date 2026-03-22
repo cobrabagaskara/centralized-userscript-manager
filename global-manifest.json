@@ -315,7 +315,7 @@
     {
       "id": "skrining-pengkajian-nutrisi",
       "name": "Skrining Pengkajian Nutrisi",
-      "version": "1.1",
+      "version": "1.2",
       "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-pengkajian-nutrisi.js",
