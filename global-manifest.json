@@ -315,7 +315,7 @@
     {
       "id": "skrining-pengkajian-nutrisi",
       "name": "Skrining Pengkajian Nutrisi",
-      "version": "1.0",
+      "version": "1.1",
       "icon": "📝",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-pengkajian-nutrisi.js",
@@ -468,17 +468,17 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "skrining-risiko-kanker-serviks",
-  "name": "Skrining Risiko Kanker Serviks",
-  "version": "1.0",
-  "icon": "📝",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-serviks.js",
-  "matches": [
-    "https://*.epuskesmas.id/risikokankerserviks/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "skrining-risiko-kanker-serviks",
+      "name": "Skrining Risiko Kanker Serviks",
+      "version": "1.0",
+      "icon": "📝",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-serviks.js",
+      "matches": [
+        "https://*.epuskesmas.id/risikokankerserviks/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
