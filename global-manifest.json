@@ -491,30 +491,6 @@
         "https://*.epuskesmas.id/anamnesa/*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-    {
-      "id": "skrining-counter",
-      "name": "Skrining Counter",
-      "version": "3.0",
-      "icon": "⏰",
-      "defaultEnabled": false,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter.js",
-      "matches": [
-        "https://*.epuskesmas.id/klaster_siklushidup/*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "auto-close-sweetalert2",
-  "name": "Auto Close SweetAlert2",
-  "version": "1.1",
-  "icon": "🔑",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-close-sweetalert2.js",
-  "matches": [
-    "https://*.epuskesmas.id/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
