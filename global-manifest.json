@@ -457,6 +457,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+{
+  "id": "imunisasi-mtbs",
+  "name": "Imunisasi MTBS",
+  "version": "1.1.0",
+  "icon": "💉",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/imunisasi-mtbs.js",
+  "matches": [
+    "https://*.epuskesmas.id/mtbsv2/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
     {
       "id": "bpjs-survey-auto-fill",
       "name": "BPJS Survey Auto Fill",
