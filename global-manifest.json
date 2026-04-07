@@ -491,6 +491,18 @@
         "https://*.epuskesmas.id/anamnesa/*"
       ],
       "userSelector": "#menu_user .label-default"
+    },
+    {
+      "id": "skrining-counter",
+      "name": "Skrining Counter",
+      "version": "1.0",
+      "icon": "⏰",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter.js",
+      "matches": [
+        "https://*.epuskesmas.id/klaster_siklushidup/*"
+      ],
+      "userSelector": "#menu_user .label-default"
     }
   ]
 }
