@@ -492,7 +492,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-    
+{
+  "id": "skrining-counter",
+  "name": "Skrining Counter",
+  "version": "3.2.2",
+  "icon": "⏰",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
     {
       "id": "filter-usila",
       "name": "Filter Usila",
