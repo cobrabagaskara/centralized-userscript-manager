@@ -515,19 +515,6 @@
         "https://*.epuskesmas.id/pelayanan*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "bb-tb-ke-bpjs-skrining",
-  "name": "BB TB ke BPJS Skrining",
-  "version": "2.1",
-  "icon": "📌",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bb-tb-ke-bpjs-skrining.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/anamnesa/*",
-    "https://webskrining.bpjs-kesehatan.go.id/skrining"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
