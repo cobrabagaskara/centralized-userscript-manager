@@ -515,6 +515,18 @@
         "https://*.epuskesmas.id/pelayanan*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "epuskesmas-copy-data-pasien",
+  "name": "ePuskesmas Copy Data Pasien",
+  "version": "1.1",
+  "icon": "📋",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/epuskesmas-copy-data-pasien.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/anamnesa/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
