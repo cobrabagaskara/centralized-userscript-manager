@@ -528,15 +528,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "bpjs-paste-data-pasien",
+      "name": "BPJS Paste Data Pasien",
+      "version": "1.1",
+      "icon": "📋",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-paste-data-pasien.js",
+      "matches": [
+        "https://webskrining.bpjs-kesehatan.go.id/skrining"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "bpjs-paste-data-pasien",
-  "name": "BPJS Paste Data Pasien",
-  "version": "1.1",
-  "icon": "📋",
+  "id": "bpjs-kunjungan-sehat",
+  "name": "BPJS kunjungan sehat",
+  "version": "2.7",
+  "icon": "💾",
   "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-paste-data-pasien.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-kunjungan-sehat.js",
   "matches": [
-    "https://webskrining.bpjs-kesehatan.go.id/skrining"
+    "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
   ],
   "userSelector": "#menu_user .label-default"
 }
