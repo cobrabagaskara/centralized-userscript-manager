@@ -551,6 +551,18 @@
         "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "copy-bpjs-no",
+  "name": "Copy BPJS No.",
+  "version": "2.0",
+  "icon": "🔍",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/copy-bpjs-no.js",
+  "matches": [
+    "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/ViewKunjunganSehat*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
