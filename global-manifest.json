@@ -551,18 +551,6 @@
         "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "bpjs-copy-data-kunjungan-sehat",
-  "name": "BPJS Copy Data kunjungan sehat",
-  "version": "2.7",
-  "icon": "🔍",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-copy-data-kunjungan-sehat.js",
-  "matches": [
-    "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
