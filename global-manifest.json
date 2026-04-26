@@ -564,29 +564,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    
     {
-      "id": "dewasa-sedang-diperiksa",
-      "name": "Dewasa Sedang Diperiksa",
-      "version": "1.1",
-      "icon": "🩺",
-      "defaultEnabled": true,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dewasa-sedang-diperiksa.js",
+      "id": "usila-belum-periksa",
+      "name": "Usila Belum Periksa",
+      "version": "1.2",
+      "icon": "🛡️",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-belum-periksa.js",
       "matches": [
-        "https://*.epuskesmas.id/pelayana*"
+        "https://cirebon.epuskesmas.id/pelayana*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "usila-belum-periksa",
-  "name": "Usila Belum Periksa",
-  "version": "1.2",
-  "icon": "🛡️",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-belum-periksa.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/pelayana*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
