@@ -588,15 +588,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "usila-sedang-periksa",
+      "name": "Usila Sedang Periksa",
+      "version": "1.2",
+      "icon": "🩺",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-sedang-periksa.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/pelayana*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "usila-sedang-periksa",
-  "name": "Usila Sedang Periksa",
-  "version": "1.2",
-  "icon": "🩺",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-sedang-periksa.js",
+  "id": "dropdown-automation-trisno",
+  "name": "trisno",
+  "version": "1.0",
+  "icon": "🎯",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-automation-trisno.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/pelayana*"
+    "https://cirebon.epuskesmas.id/pelayanan*"
   ],
   "userSelector": "#menu_user .label-default"
 }
