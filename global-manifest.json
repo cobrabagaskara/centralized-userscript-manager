@@ -599,18 +599,6 @@
         "https://cirebon.epuskesmas.id/pelayana*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "dropdown-automation-trisno",
-  "name": "trisno",
-  "version": "1.0",
-  "icon": "🎯",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-automation-trisno.js",
-  "matches": [
-    "https://cirebon.epuskesmas.id/pelayanan*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
