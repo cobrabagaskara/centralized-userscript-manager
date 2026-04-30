@@ -603,7 +603,7 @@
 {
   "id": "dropdown-udk3d",
   "name": "Dropdown UDK3D",
-  "version": "1.0",
+  "version": "1.1",
   "icon": "🎯",
   "defaultEnabled": false,
   "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-udk3d.js",
