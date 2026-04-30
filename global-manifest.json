@@ -608,7 +608,7 @@
   "defaultEnabled": false,
   "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-udk3d.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/pelayanan?se*"
+    "https://cirebon.epuskesmas.id/pelayana*"
   ],
   "userSelector": "#menu_user .label-default"
 }
