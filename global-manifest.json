@@ -612,15 +612,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "otomasi-kunjungan-sehat-bpjs",
+      "name": "Otomasi kunjungan sehat BPJS",
+      "version": "3.2",
+      "icon": "📝",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/otomasi-kunjungan-sehat-bpjs.js",
+      "matches": [
+        "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "otomasi-kunjungan-sehat-bpjs",
-  "name": "Otomasi kunjungan sehat BPJS",
-  "version": "3.2",
-  "icon": "📝",
+  "id": "exporter-data-skrining",
+  "name": "Exporter Data Skrining",
+  "version": "1.0",
+  "icon": "🧩",
   "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/otomasi-kunjungan-sehat-bpjs.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/exporter-data-skrining.js",
   "matches": [
-    "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
+    "https://*.epuskesmas.id/dashboardilp"
   ],
   "userSelector": "#menu_user .label-default"
 }
