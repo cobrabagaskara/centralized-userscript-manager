@@ -600,15 +600,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "dropdown-udk3d",
+      "name": "Dropdown UDK3D",
+      "version": "1.1",
+      "icon": "🎯",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-udk3d.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/pelayana*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "dropdown-udk3d",
-  "name": "Dropdown UDK3D",
-  "version": "1.1",
-  "icon": "🎯",
+  "id": "otomasi-kunjungan-sehat-bpjs",
+  "name": "Otomasi kunjungan sehat BPJS",
+  "version": "3.2",
+  "icon": "📝",
   "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-udk3d.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/otomasi-kunjungan-sehat-bpjs.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/pelayana*"
+    "https://pcarejkn.bpjs-kesehatan.go.id/eclaim/EntriDaftarDokkel"
   ],
   "userSelector": "#menu_user .label-default"
 }
