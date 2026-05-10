@@ -624,15 +624,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "exporter-data-skrining",
+      "name": "Exporter Data Skrining",
+      "version": "1.0",
+      "icon": "🧩",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/exporter-data-skrining.js",
+      "matches": [
+        "https://*.epuskesmas.id/dashboardilp"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "exporter-data-skrining",
-  "name": "Exporter Data Skrining",
-  "version": "1.0",
-  "icon": "🧩",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/exporter-data-skrining.js",
+  "id": "auto-close-sweetalert2",
+  "name": "Auto Close SweetAlert2",
+  "version": "2.1",
+  "icon": "✅",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-close-sweetalert2.js",
   "matches": [
-    "https://*.epuskesmas.id/dashboardilp"
+    "https://*.epuskesmas.id/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
