@@ -648,15 +648,27 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "wajib-mobile-jkn",
+      "name": "Wajib Mobile JKN",
+      "version": "2.0",
+      "icon": "❌",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/wajib-mobile-jkn.js",
+      "matches": [
+        "https://*.epuskesmas.id/antreanpendaftaran*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "wajib-mobile-jkn",
-  "name": "Wajib Mobile JKN",
-  "version": "2.0",
-  "icon": "❌",
+  "id": "kessan-bpjs-auto",
+  "name": "KESSAN BPJS Auto",
+  "version": "5.0",
+  "icon": "🚀",
   "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/wajib-mobile-jkn.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/kessan-bpjs-auto.js",
   "matches": [
-    "https://*.epuskesmas.id/antreanpendaftaran*"
+    "https://kesan.bpjs-kesehatan.go.id/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
