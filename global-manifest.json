@@ -493,17 +493,17 @@
       "userSelector": "#menu_user .label-default"
     },
     {
-      "id": "skrining-counter",
-      "name": "Skrining Counter",
-      "version": "3.2.2",
-      "icon": "⏰",
-      "defaultEnabled": false,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter.js",
-      "matches": [
-        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
+  "id": "skrining-counter-final",
+  "name": "Skrining Counter Final",
+  "version": "4.1.0",
+  "icon": "🧩",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-final.js",
+  "matches": [
+    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
     {
       "id": "filter-usila",
       "name": "Filter Usila",
@@ -660,17 +660,17 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "kessan-bpjs-auto",
-  "name": "KESSAN BPJS Auto",
-  "version": "5.0",
-  "icon": "🚀",
-  "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/kessan-bpjs-auto.js",
-  "matches": [
-    "https://kesan.bpjs-kesehatan.go.id/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    {
+      "id": "kessan-bpjs-auto",
+      "name": "KESSAN BPJS Auto",
+      "version": "5.0",
+      "icon": "🚀",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/kessan-bpjs-auto.js",
+      "matches": [
+        "https://kesan.bpjs-kesehatan.go.id/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    }
   ]
 }
