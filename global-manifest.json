@@ -480,30 +480,30 @@
         "https://webskrining.bpjs-kesehatan.go.id/*"
       ]
     },
-    {
-      "id": "anamnesa-dari-kunjungan-sebelumnya",
-      "name": "Anamnesa dari Kunjungan Sebelumnya",
-      "version": "1.5.2",
-      "icon": "🩺",
-      "defaultEnabled": false,
-      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/anamnesa-dari-kunjungan-sebelumnya.js",
-      "matches": [
-        "https://*.epuskesmas.id/anamnesa/*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
-    {
-  "id": "skrining-counter-final",
-  "name": "Skrining Counter Final",
-  "version": "4.1.0",
-  "icon": "🧩",
+{
+  "id": "anamnesa-dari-kunjungan-sebelumnya",
+  "name": "Anamnesa dari Kunjungan Sebelumnya",
+  "version": "2.0",
+  "icon": "🩺",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-final.js",
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/anamnesa-dari-kunjungan-sebelumnya.js",
   "matches": [
-    "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+    "https://*.epuskesmas.id/anamnesa/*"
   ],
   "userSelector": "#menu_user .label-default"
 },
+    {
+      "id": "skrining-counter-final",
+      "name": "Skrining Counter Final",
+      "version": "4.1.0",
+      "icon": "🧩",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-final.js",
+      "matches": [
+        "https://cirebon.epuskesmas.id/klaster_siklushidup/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
     {
       "id": "filter-usila",
       "name": "Filter Usila",
