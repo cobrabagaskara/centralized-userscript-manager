@@ -600,18 +600,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-{
-  "id": "auto-fill-layanan-kesehatan",
-  "name": "Auto Fill Layanan Kesehatan",
-  "version": "1.6",
-  "icon": "🧩",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-fill-layanan-kesehatan.js",
-  "matches": [
-    "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
-  ],
-  "userSelector": "#menu_user .label-default"
-},
+    {
+      "id": "auto-fill-layanan-kesehatan",
+      "name": "Auto Fill Layanan Kesehatan",
+      "version": "1.6",
+      "icon": "🧩",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/auto-fill-layanan-kesehatan.js",
+      "matches": [
+        "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
     {
       "id": "dropdown-udk3d",
       "name": "Dropdown UDK3D",
