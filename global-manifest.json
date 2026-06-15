@@ -600,7 +600,6 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-    
     {
       "id": "dropdown-udk3d",
       "name": "Dropdown UDK3D",
@@ -661,6 +660,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+{
+  "id": "auto-fill-toggle-layanan-dengan-settings-ui",
+  "name": "Tidak",
+  "version": "6.0",
+  "icon": "❌",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-fill-toggle-layanan-dengan-settings-ui.js",
+  "matches": [
+    "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
     {
       "id": "kessan-bpjs-auto",
       "name": "KESSAN BPJS Auto",
