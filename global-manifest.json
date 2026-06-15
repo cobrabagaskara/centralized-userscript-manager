@@ -660,7 +660,18 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
-    
+{
+  "id": "tidak",
+  "name": "Tidak",
+  "version": "6.1",
+  "icon": "❌",
+  "defaultEnabled": false,
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/tidak.js",
+  "matches": [
+    "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
+  ],
+  "userSelector": "#menu_user .label-default"
+},
     {
       "id": "auto-fill-layanan-kesehatan",
       "name": "Auto Fill Layanan Kesehatan",
