@@ -660,13 +660,25 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "auto-fill-toggle-layanan-dengan-settings-ui",
+      "name": "Tidak",
+      "version": "6.0",
+      "icon": "❌",
+      "defaultEnabled": false,
+      "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-fill-toggle-layanan-dengan-settings-ui.js",
+      "matches": [
+        "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "auto-fill-toggle-layanan-dengan-settings-ui",
-  "name": "Tidak",
-  "version": "6.0",
+  "id": "auto-fill-layanan-kesehatan-fast-mode",
+  "name": "Auto Fill Layanan Kesehatan - Fast Mode",
+  "version": "3.1",
   "icon": "❌",
   "defaultEnabled": false,
-  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-fill-toggle-layanan-dengan-settings-ui.js",
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-fill-layanan-kesehatan-fast-mode.js",
   "matches": [
     "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan/detail-pemeriksaan*"
   ],
