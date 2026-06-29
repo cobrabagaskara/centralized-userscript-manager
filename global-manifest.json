@@ -671,31 +671,6 @@
         "https://kesan.bpjs-kesehatan.go.id/*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-    {
-      "id": "auto-survey-kemkes-daftar-form",
-      "name": "Auto Survey Kemkes (Daftar & Form)",
-      "version": "6.0",
-      "icon": "🚀",
-      "defaultEnabled": true,
-      "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-survey-kemkes-daftar-form.js",
-      "matches": [
-        "https://form.kemkes.go.id/v2/skrining-form*",
-        "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan-sekolah/detail-pemeriksaan*"
-      ],
-      "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "auto-answer-survey-radio-tidak-number-input-fixed",
-  "name": "Auto Answer Survey (Radio \"Tidak\" + Number Input) - Fixed",
-  "version": "5.0",
-  "icon": "🚀",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-answer-survey-radio-tidak-number-input-fixed.js",
-  "matches": [
-    "https://form.kemkes.go.id/v2/skrining-form*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
