@@ -671,6 +671,18 @@
         "https://kesan.bpjs-kesehatan.go.id/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "auto-survey-kemkes-daftar-form",
+  "name": "Auto Survey Kemkes (Daftar & Form)",
+  "version": "6.1",
+  "icon": "🚀",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-survey-kemkes-daftar-form.js",
+  "matches": [
+    "https://form.kemkes.go.id/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
