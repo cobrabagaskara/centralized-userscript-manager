@@ -671,6 +671,21 @@
         "https://kesan.bpjs-kesehatan.go.id/*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "auto-fill-no-resep",
+  "name": "Auto Fill No Resep",
+  "version": "1.4.0",
+  "icon": "📝",
+  "category": "administrasi",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-fill-no-resep.js",
+  "matches": [
+    "https://*.epuskesmas.id/pelayanan/show/*",
+    "https://*.epuskesmas.id/resep/edit/*",
+    "https://*.epuskesmas.id/resep/create/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
