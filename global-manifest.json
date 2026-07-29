@@ -671,21 +671,6 @@
         "https://kesan.bpjs-kesehatan.go.id/*"
       ],
       "userSelector": "#menu_user .label-default"
-    },
-{
-  "id": "no-resep",
-  "name": "No Resep",
-  "version": "1.3",
-  "icon": "📝",
-  "category": "administrasi",
-  "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/no-resep.js",
-  "matches": [
-    "https://*.epuskesmas.id/pelayanan/show/*",
-    "https://*.epuskesmas.id/resep/edit/*",
-    "https://*.epuskesmas.id/resep/create/*"
-  ],
-  "userSelector": "#menu_user .label-default"
-}
+    }
   ]
 }
