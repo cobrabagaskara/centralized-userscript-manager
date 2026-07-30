@@ -672,18 +672,31 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "no-resep",
+      "name": "No. Resep",
+      "version": "1.5.0",
+      "icon": "🗂️",
+      "category": "administrasi",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/no-resep.js",
+      "matches": [
+        "https://*.epuskesmas.id/pelayanan/show/*",
+        "https://*.epuskesmas.id/resep/edit/*",
+        "https://*.epuskesmas.id/resep/create/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "no-resep",
-  "name": "No. Resep",
-  "version": "1.5.0",
-  "icon": "🗂️",
+  "id": "auto-nomor-surat-keur-firebase-sync",
+  "name": "Auto Nomor Surat KEUR (Firebase Sync)",
+  "version": "8.0",
+  "icon": "🛠️",
   "category": "administrasi",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/no-resep.js",
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-nomor-surat-keur-firebase-sync.js",
   "matches": [
-    "https://*.epuskesmas.id/pelayanan/show/*",
-    "https://*.epuskesmas.id/resep/edit/*",
-    "https://*.epuskesmas.id/resep/create/*"
+    "https://*.epuskesmas.id/keur/*"
   ],
   "userSelector": "#menu_user .label-default"
 }
