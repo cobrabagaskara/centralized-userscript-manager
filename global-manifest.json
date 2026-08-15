@@ -687,16 +687,29 @@
       ],
       "userSelector": "#menu_user .label-default"
     },
+    {
+      "id": "auto-nomor-surat-keur-firebase-sync",
+      "name": "Auto Nomor Surat KEUR (Firebase Sync)",
+      "version": "8.0",
+      "icon": "🛠️",
+      "category": "administrasi",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-nomor-surat-keur-firebase-sync.js",
+      "matches": [
+        "https://*.epuskesmas.id/keur/*"
+      ],
+      "userSelector": "#menu_user .label-default"
+    },
 {
-  "id": "auto-nomor-surat-keur-firebase-sync",
-  "name": "Auto Nomor Surat KEUR (Firebase Sync)",
-  "version": "8.0",
+  "id": "laporan-keuangan-harian-supabase",
+  "name": "Laporan Keuangan Harian - Supabase",
+  "version": "2.2",
   "icon": "🛠️",
-  "category": "administrasi",
+  "category": "tools",
   "defaultEnabled": true,
-  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/auto-nomor-surat-keur-firebase-sync.js",
+  "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/laporan-keuangan-harian-supabase.js",
   "matches": [
-    "https://*.epuskesmas.id/keur/*"
+    "https://*.epuskesmas.id/dashboardsip"
   ],
   "userSelector": "#menu_user .label-default"
 }
