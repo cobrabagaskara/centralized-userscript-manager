@@ -705,7 +705,7 @@
   "name": "Survey Mandiri",
   "version": "6.1",
   "icon": "🧩",
-  "defaultEnabled": true,
+  "defaultEnabled": false,
   "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/survey-mandiri.js",
   "matches": [
     "https://form.kemkes.go.id/v2/skrining-form*",
