@@ -699,6 +699,22 @@
         "https://*.epuskesmas.id/dashboardsip"
       ],
       "userSelector": "#menu_user .label-default"
+    },
+    {
+      "id": "survey-mandiri",
+      "name": "Survey Mandiri",
+      "version": "6.1",
+      "icon": "🔌",
+      "category": "tools",
+      "description": "Otomatis klik tombol abu-abu di daftar, dan auto-fill form dengan Smart Fill untuk Kesehatan Reproduksi Putri + Tidak untuk lainnya, lalu submit.",
+      "tier": "dasar",
+      "defaultEnabled": true,
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/survey-mandiri.js",
+      "matches": [
+        "https://form.kemkes.go.id/v2/skrining-form*",
+        "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan-sekolah/detail-pemeriksa*"
+      ],
+      "bypassWhitelist": true
     }
   ]
 }
