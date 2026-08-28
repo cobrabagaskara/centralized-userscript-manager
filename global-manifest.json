@@ -17,7 +17,7 @@
       "id": "data-pasien-reader",
       "name": "Data Pasien Reader",
       "version": "1.0",
-      "icon": "âï¸",
+      "icon": "Ã¢ÂÂÃ¯Â¸Â",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/data-pasien-reader.js",
       "matches": [
@@ -29,7 +29,7 @@
       "id": "skrining-ad-8-ina",
       "name": "Skrining AD-8 INA",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ad-8-ina.js",
       "matches": [
@@ -41,7 +41,7 @@
       "id": "skrining-lansia-sederhana-skilas",
       "name": "Skrining Lansia Sederhana (SKILAS)",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-lansia-sederhana-skilas.js",
       "matches": [
@@ -53,7 +53,7 @@
       "id": "skrining-tbc",
       "name": "Skrining TBC",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
       "matches": [
@@ -65,7 +65,7 @@
       "id": "skrining-adl",
       "name": "Skrining ADL",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-adl.js",
       "matches": [
@@ -77,7 +77,7 @@
       "id": "skrining-anemia",
       "name": "Skrining Anemia",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-anemia.js",
       "matches": [
@@ -89,7 +89,7 @@
       "id": "skrining-diabetes-melitus",
       "name": "Skrining Diabetes Melitus",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-diabetes-melitus.js",
       "matches": [
@@ -101,7 +101,7 @@
       "id": "skrining-faktor-risiko",
       "name": "Skrining Faktor Risiko",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-faktor-risiko.js",
       "matches": [
@@ -113,7 +113,7 @@
       "id": "skrining-gigi-dewasa",
       "name": "Skrining Gigi Dewasa",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-dewasa.js",
       "matches": [
@@ -125,7 +125,7 @@
       "id": "skrining-gigi-lansia",
       "name": "Skrining Gigi Lansia",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-lansia.js",
       "matches": [
@@ -137,7 +137,7 @@
       "id": "skrining-gigi-mulut-remaja",
       "name": "Skrining Gigi & Mulut Remaja",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gigi-mulut-remaja.js",
       "matches": [
@@ -149,7 +149,7 @@
       "id": "skrining-hipertensi",
       "name": "Skrining Hipertensi",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-hipertensi.js",
       "matches": [
@@ -161,7 +161,7 @@
       "id": "skrining-imunisasi-dewasa",
       "name": "Skrining Imunisasi Dewasa",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-imunisasi-dewasa.js",
       "matches": [
@@ -173,7 +173,7 @@
       "id": "skrining-indra-pendengaran",
       "name": "Skrining Indra Pendengaran",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-indra-pendengaran.js",
       "matches": [
@@ -185,7 +185,7 @@
       "id": "skrining-kanker-kolorektal",
       "name": "Skrining Kanker Kolorektal",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kanker-kolorektal.js",
       "matches": [
@@ -197,7 +197,7 @@
       "id": "skrining-kelainan-empedu-bayi",
       "name": "Skrining Kelainan Empedu Bayi",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kelainan-empedu-bayi.js",
       "matches": [
@@ -209,7 +209,7 @@
       "id": "skrining-kesehatan-gigi-mulut-balita",
       "name": "Skrining Kesehatan Gigi & Mulut Balita",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-gigi-mulut-balita.js",
       "matches": [
@@ -221,7 +221,7 @@
       "id": "skrining-kesehatan-jiwa-phq-4",
       "name": "Skrining Kesehatan Jiwa PHQ-4",
       "version": "2026-03-16",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-jiwa-phq-4.js",
       "matches": [
@@ -233,7 +233,7 @@
       "id": "skrining-kesehatan-penglihatan",
       "name": "Skrining Kesehatan Penglihatan",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kesehatan-penglihatan.js",
       "matches": [
@@ -245,7 +245,7 @@
       "id": "skrining-layak-hamil",
       "name": "Skrining Layak Hamil",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-layak-hamil.js",
       "matches": [
@@ -257,7 +257,7 @@
       "id": "skrining-malaria",
       "name": "Skrining Malaria",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-malaria.js",
       "matches": [
@@ -269,7 +269,7 @@
       "id": "skrining-obesitas",
       "name": "Skrining Obesitas",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-obesitas.js",
       "matches": [
@@ -281,7 +281,7 @@
       "id": "skrining-pengkajian-nutrisi",
       "name": "Skrining Pengkajian Nutrisi",
       "version": "1.2",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-pengkajian-nutrisi.js",
       "matches": [
@@ -293,7 +293,7 @@
       "id": "skrining-ppok-dengan-kuesioner-puma",
       "name": "Skrining PPOK dengan Kuesioner PUMA",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-ppok-dengan-kuesioner-puma.js",
       "matches": [
@@ -305,7 +305,7 @@
       "id": "skrining-risiko-kanker-paru",
       "name": "Skrining Risiko Kanker Paru",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-paru.js",
       "matches": [
@@ -317,7 +317,7 @@
       "id": "skrining-risiko-kanker-payudara",
       "name": "Skrining Risiko Kanker Payudara",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-payudara.js",
       "matches": [
@@ -329,7 +329,7 @@
       "id": "skrining-risiko-penyakit-jantung",
       "name": "Skrining Risiko Penyakit Jantung",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-penyakit-jantung.js",
       "matches": [
@@ -341,7 +341,7 @@
       "id": "skrining-risiko-stroke",
       "name": "Skrining Risiko Stroke",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-stroke.js",
       "matches": [
@@ -353,7 +353,7 @@
       "id": "skrining-sdq-11-18-tahun",
       "name": "Skrining SDQ (11 - 18 Tahun)",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-sdq-11-18-tahun.js",
       "matches": [
@@ -365,7 +365,7 @@
       "id": "skrining-sdq-6-11-tahun",
       "name": "Skrining SDQ (6 - <11 Tahun)",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-sdq-6-11-tahun.js",
       "matches": [
@@ -377,7 +377,7 @@
       "id": "skrining-srq-29",
       "name": "Skrining SRQ-29",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-srq-29.js",
       "matches": [
@@ -389,7 +389,7 @@
       "id": "skrining-tbc",
       "name": "Skrining TBC",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-tbc.js",
       "matches": [
@@ -401,7 +401,7 @@
       "id": "skrining-thalasemia",
       "name": "Skrining Thalasemia",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-thalasemia.js",
       "matches": [
@@ -413,7 +413,7 @@
       "id": "skrining-kekerasan-pada-perempuan",
       "name": "Skrining Kekerasan pada Perempuan",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-kekerasan-pada-perempuan.js",
       "matches": [
@@ -425,7 +425,7 @@
       "id": "skrining-who-assist",
       "name": "Skrining WHO - ASSIST",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-who-assist.js",
       "matches": [
@@ -437,7 +437,7 @@
       "id": "skrining-risiko-kanker-serviks",
       "name": "Skrining Risiko Kanker Serviks",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-risiko-kanker-serviks.js",
       "matches": [
@@ -449,7 +449,7 @@
       "id": "skrining-gds-4",
       "name": "Skrining GDS-4",
       "version": "1.1",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-gds-4.js",
       "matches": [
@@ -461,7 +461,7 @@
       "id": "imunisasi-mtbs",
       "name": "Imunisasi MTBS",
       "version": "1.1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/imunisasi-mtbs.js",
       "matches": [
@@ -473,7 +473,7 @@
       "id": "bpjs-survey-auto-fill",
       "name": "BPJS Survey Auto Fill",
       "version": "1.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-survey-auto-fill.js",
       "matches": [
@@ -484,7 +484,7 @@
       "id": "anamnesa-dari-kunjungan-sebelumnya",
       "name": "Anamnesa dari Kunjungan Sebelumnya",
       "version": "2.0",
-      "icon": "ð©º",
+      "icon": "Ã°ÂÂ©Âº",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/anamnesa-dari-kunjungan-sebelumnya.js",
       "matches": [
@@ -496,7 +496,7 @@
       "id": "skrining-counter-final",
       "name": "Skrining Counter Final",
       "version": "4.1.0",
-      "icon": "ð§©",
+      "icon": "Ã°ÂÂ§Â©",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-final.js",
       "matches": [
@@ -508,7 +508,7 @@
       "id": "filter-usila",
       "name": "Filter Usila",
       "version": "1.0",
-      "icon": "ð§ ",
+      "icon": "Ã°ÂÂ§Â ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/filter-usila.js",
       "matches": [
@@ -520,7 +520,7 @@
       "id": "epuskesmas-copy-data-pasien",
       "name": "ePuskesmas Copy Data Pasien",
       "version": "1.1",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/epuskesmas-copy-data-pasien.js",
       "matches": [
@@ -532,7 +532,7 @@
       "id": "bpjs-paste-data-pasien",
       "name": "BPJS Paste Data Pasien",
       "version": "1.1",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-paste-data-pasien.js",
       "matches": [
@@ -544,7 +544,7 @@
       "id": "bpjs-kunjungan-sehat",
       "name": "BPJS kunjungan sehat",
       "version": "2.7",
-      "icon": "ð¾",
+      "icon": "Ã°ÂÂÂ¾",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/bpjs-kunjungan-sehat.js",
       "matches": [
@@ -556,7 +556,7 @@
       "id": "copy-bpjs-no",
       "name": "Copy BPJS No.",
       "version": "2.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/copy-bpjs-no.js",
       "matches": [
@@ -568,7 +568,7 @@
       "id": "usila-belum-periksa",
       "name": "Usila Belum Periksa",
       "version": "1.2",
-      "icon": "ð¡ï¸",
+      "icon": "Ã°ÂÂÂ¡Ã¯Â¸Â",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-belum-periksa.js",
       "matches": [
@@ -580,7 +580,7 @@
       "id": "dewasa-sedang-diperiksa",
       "name": "Dewasa Sedang Diperiksa",
       "version": "1.1",
-      "icon": "ð©º",
+      "icon": "Ã°ÂÂ©Âº",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dewasa-sedang-diperiksa.js",
       "matches": [
@@ -592,7 +592,7 @@
       "id": "usila-sedang-periksa",
       "name": "Usila Sedang Periksa",
       "version": "1.2",
-      "icon": "ð©º",
+      "icon": "Ã°ÂÂ©Âº",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/usila-sedang-periksa.js",
       "matches": [
@@ -604,7 +604,7 @@
       "id": "dropdown-udk3d",
       "name": "Dropdown UDK3D",
       "version": "1.1",
-      "icon": "ð¯",
+      "icon": "Ã°ÂÂÂ¯",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/dropdown-udk3d.js",
       "matches": [
@@ -616,7 +616,7 @@
       "id": "otomasi-kunjungan-sehat-bpjs",
       "name": "Otomasi kunjungan sehat BPJS",
       "version": "3.2",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/otomasi-kunjungan-sehat-bpjs.js",
       "matches": [
@@ -628,7 +628,7 @@
       "id": "exporter-data-skrining",
       "name": "Exporter Data Skrining",
       "version": "1.0",
-      "icon": "ð§©",
+      "icon": "Ã°ÂÂ§Â©",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/exporter-data-skrining.js",
       "matches": [
@@ -640,7 +640,7 @@
       "id": "handle-popup-save",
       "name": "Handle Popup & Save",
       "version": "1.1",
-      "icon": "â",
+      "icon": "Ã¢ÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/handle-popup-save.js",
       "matches": [
@@ -652,7 +652,7 @@
       "id": "wajib-mobile-jkn",
       "name": "Wajib Mobile JKN",
       "version": "2.0",
-      "icon": "â",
+      "icon": "Ã¢ÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/wajib-mobile-jkn.js",
       "matches": [
@@ -664,7 +664,7 @@
       "id": "kessan-bpjs-auto",
       "name": "KESSAN BPJS Auto",
       "version": "5.0",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/kessan-bpjs-auto.js",
       "matches": [
@@ -676,7 +676,7 @@
       "id": "no-resep",
       "name": "No. Resep",
       "version": "1.5.0",
-      "icon": "ðï¸",
+      "icon": "Ã°ÂÂÂÃ¯Â¸Â",
       "category": "administrasi",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/no-resep.js",
@@ -691,7 +691,7 @@
       "id": "laporan-keuangan-harian-supabase",
       "name": "Laporan Keuangan Harian - Supabase",
       "version": "2.2",
-      "icon": "ð ï¸",
+      "icon": "Ã°ÂÂÂ Ã¯Â¸Â",
       "category": "tools",
       "defaultEnabled": true,
       "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/laporan-keuangan-harian-supabase.js",
@@ -699,6 +699,19 @@
         "https://*.epuskesmas.id/dashboardsip"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "survey-mandiri",
+  "name": "Survey Mandiri",
+  "version": "6.1",
+  "icon": "🧩",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/survey-mandiri.js",
+  "matches": [
+    "https://form.kemkes.go.id/v2/skrining-form*",
+    "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan-sekolah/detail-pemeriksa*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
