@@ -719,7 +719,7 @@
       "version": "7.0",
       "icon": "🧩",
       "defaultEnabled": false,
-      "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/skrining-counter-auto-klik-dengan-mapping-kategori.js",
+      "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-auto-klik-dengan-mapping-kategori.js",
       "matches": [
         "https://*.epuskesmas.id/klaster_siklushidup/*"
       ],
