@@ -718,7 +718,7 @@
       "name": "Skrining Counter - Auto Klik (Dengan Mapping Kategori)",
       "version": "7.0",
       "icon": "🧩",
-      "defaultEnabled": true,
+      "defaultEnabled": false,
       "scriptUrl": "https://raw.githubusercontent.com/perangkat-dev/frontend/refs/heads/main/modules/skrining-counter-auto-klik-dengan-mapping-kategori.js",
       "matches": [
         "https://*.epuskesmas.id/klaster_siklushidup/*"
