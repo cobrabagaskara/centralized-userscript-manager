@@ -712,6 +712,18 @@
         "https://sehatindonesiaku.kemkes.go.id/ckg-pelayanan-sekolah/detail-pemeriksa*"
       ],
       "userSelector": "#menu_user .label-default"
-    }
+    },
+{
+  "id": "skrining-counter-auto-klik-dengan-mapping-kategori",
+  "name": "Skrining Counter - Auto Klik (Dengan Mapping Kategori)",
+  "version": "7.2",
+  "icon": "🧩",
+  "defaultEnabled": true,
+  "scriptUrl": "https://raw.githubusercontent.com/cobrabagaskara/centralized-userscript-manager/main/modules/skrining-counter-auto-klik-dengan-mapping-kategori.js",
+  "matches": [
+    "https://*.epuskesmas.id/klaster_siklushidup/*"
+  ],
+  "userSelector": "#menu_user .label-default"
+}
   ]
 }
